@@ -6,7 +6,7 @@ module MWS
     class LowestOfferListings < Core::Collection
 
       def each(&blk)
-        xpath("LowestOfferListings/LowestOfferListing").map { |node| yield LowestOfferListing.new(node) }
+        xpath("LowestOfferListing").map { |node| yield LowestOfferListing.new(node) }
       end
     end
   end

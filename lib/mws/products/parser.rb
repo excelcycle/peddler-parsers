@@ -19,7 +19,8 @@ module MWS
       end
 
       def parse
-        node = find_result_node
+        xml = Nokogiri(@response.body)
+        node = xml.children.find { |node| node.name.include?("Response") }
 
         case node.name
         when SERVICE_STATUS

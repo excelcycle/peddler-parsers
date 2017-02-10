@@ -4,7 +4,7 @@ class TestProductsLowestOfferListings < MiniTest::Test
   include MWS::Products
 
   def setup
-    node = load_xml_fixture("get_lowest_offer_listings_sku").xpath("//xmlns:Product")
+    node = load_xml_fixture("get_lowest_offer_listings_sku").xpath("//xmlns:LowestOfferListings").first
     @lowest_offer_listings = LowestOfferListings.new(node)
   end
 
