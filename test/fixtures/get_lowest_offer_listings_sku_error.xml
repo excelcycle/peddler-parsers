@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<GetLowestOfferListingsForSKUResponse xmlns="http://mws.amazonservices.com/schema/Products/2011-10-01">
+    <GetLowestOfferListingsForSKUResult SellerSKU="MOOCOW" status="ClientError">
+        <Error>
+            <Type>Sender</Type>
+            <Code>InvalidParameterValue</Code>
+            <Message>MOOCOW is an invalid SellerSKU for marketplace ATVPDKIKX0DER</Message>
+        </Error>
+    </GetLowestOfferListingsForSKUResult>
+    <ResponseMetadata>
+        <RequestId>8106ed19-9a90-4820-881e-EXAMPLE0ab97</RequestId>
+    </ResponseMetadata>
+</GetLowestOfferListingsForSKUResponse>
