@@ -10,7 +10,7 @@ node {
                 set -e
                 cd .
                 gem install bundler --no-document
-                bundle install --deployment
+                bundle install
             '''
         }
         stage('Test') {
