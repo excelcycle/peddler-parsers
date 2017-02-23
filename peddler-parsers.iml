@@ -6,7 +6,7 @@
     <orderEntry type="jdk" jdkName="RVM: ruby-2.2.5 [peddler-parsers]" jdkType="RUBY_SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" scope="PROVIDED" name="ast (v2.3.0, RVM: ruby-2.2.5 [peddler-parsers]) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="bundler (v1.13.1, RVM: ruby-2.2.5 [peddler-parsers]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="bundler (v1.13.4, RVM: ruby-2.2.5 [peddler-parsers]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="coderay (v1.1.1, RVM: ruby-2.2.5 [peddler-parsers]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="coveralls (v0.8.19, RVM: ruby-2.2.5 [peddler-parsers]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="docile (v1.1.5, RVM: ruby-2.2.5 [peddler-parsers]) [gem]" level="application" />

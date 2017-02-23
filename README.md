@@ -2,11 +2,16 @@
 
 [![Build Status](https://travis-ci.org/bpuklich/peddler-parsers.svg)](https://travis-ci.org/bpuklich/peddler-parsers)
 
+This code is strongly based off the [MWS Orders](https://github.com/hakanensari/mws-orders) example code.
+Lots of credit belongs to the author.
+
+**WARNING!** This code is not ready for production by any means. Use at your own risk.
+
 **Peddler Parsers** is a collection of parsers to be used with the [Peddler Ruby gem](https://github.com/hakanensari/peddler). 
 Refer to the [Amazon Marketplace Web Service (MWS) Products API](http://docs.developer.amazonservices.com/en_US/products/index.html) for
 more information on the API itself.
 
-Of course, to use Amazon MWS, you must have an eligible seller account.
+Of course, to use the Amazon MWS API, you must have an eligible seller account.
 
 ## Usage
 
